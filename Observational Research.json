@@ -1,0 +1,43 @@
+{
+  "literatureReviews": [
+    {
+      "id": "c50186d3-7cb9-434c-b2b5-5407a2863caa",
+      "resourceName": "Multi-user conflict resolution mechanisms for smart home environments",
+      "resourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10319268/",
+      "resourceInsights": "The study highlights that while smart homes are often designed for a single user, conflicts arise when multiple people have contradictory preferences for lighting, temperature, or music in the same space. A key takeaway is the importance of \"Special Cases\" (e.g., illness, exams, or guests). The system should automatically prioritize users in these states. The research defines three approaches: Automatic (system decides), Mediated (system asks users to discuss), and Hybrid.",
+      "comments": "This paper directly supports the \"Co-op\" and \"Conflict Resolution\" features of our project. It provides a theoretical framework for why a client needs a simple way to manage guest access while more advanced users need a priority system for their automations.",
+      "createdAt": "2026-05-13T19:09:08.845Z"
+    }
+  ],
+  "observationalResearch": [
+    {
+      "id": "5f145cb9-701b-4279-8184-76f3054679f5",
+      "target": "User entering the home with hands full.",
+      "dateTime": "2026-04-17T18:30",
+      "behavior": "The user (Andrei) approached the door carrying several bags. He attempted to reach for his phone in his pocket to unlock the smart lock but nearly dropped a bag. He eventually gave up on the phone and waited for a roommate to open the door from the inside.",
+      "comments": "Demonstrates a clear need for \"zero-touch\" or gesture-based unlocking via the Smartwatch ",
+      "duration": "3 minutes",
+      "createdAt": "2026-05-13T19:16:36.968Z"
+    },
+    {
+      "id": "b5945e58-32bb-495b-8082-5c955d021620",
+      "target": "Engineer inspecting a malfunctioning appliance.",
+      "dateTime": "2026-03-22T10:15",
+      "behavior": "The user (Marcus) noticed the dishwasher was making a strange noise. He spent 10 minutes looking for the physical manual and another 5 minutes trying to find the specific error code on his tablet.",
+      "comments": "Justifies the AR Glasses feature: a spatial overlay that shows real-time diagnostics and \"X-ray\" views of internal components directly over the machine",
+      "duration": "17 minutes",
+      "createdAt": "2026-05-13T19:22:29.292Z"
+    },
+    {
+      "id": "847ba5dc-9da2-41de-9d99-26369f347b42",
+      "target": "Two roommates in the living room.",
+      "dateTime": "2026-03-16T20:00",
+      "behavior": "Ioana set the temperature to 22°C for her workout. Ten minutes later, Maria entered, felt too hot, and manually changed it to 19°C. Neither realized the other had a specific reason for their setting, leading to a verbal disagreement.",
+      "comments": "The system needs to show \"Active Intent\"  to all users.",
+      "duration": "20 minutes",
+      "createdAt": "2026-05-13T19:24:39.860Z"
+    }
+  ],
+  "competitiveAnalysis": [],
+  "userInterviews": []
+}
