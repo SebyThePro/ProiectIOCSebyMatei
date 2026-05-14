@@ -1,0 +1,67 @@
+{
+  "literatureReviews": [
+    {
+      "id": "c50186d3-7cb9-434c-b2b5-5407a2863caa",
+      "resourceName": "Multi-user conflict resolution mechanisms for smart home environments",
+      "resourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10319268/",
+      "resourceInsights": "The study highlights that while smart homes are often designed for a single user, conflicts arise when multiple people have contradictory preferences for lighting, temperature, or music in the same space. A key takeaway is the importance of \"Special Cases\" (e.g., illness, exams, or guests). The system should automatically prioritize users in these states. The research defines three approaches: Automatic (system decides), Mediated (system asks users to discuss), and Hybrid.",
+      "comments": "This paper directly supports the \"Co-op\" and \"Conflict Resolution\" features of our project. It provides a theoretical framework for why a client needs a simple way to manage guest access while more advanced users need a priority system for their automations.",
+      "createdAt": "2026-05-13T19:09:08.845Z"
+    },
+    {
+      "id": "400d1de5-8a25-4751-a369-63654973c78f",
+      "resourceName": "My experience with Apple’s HomeKit for over two years",
+      "resourceUrl": "https://medium.com/@oliverco0828/my-experience-with-apples-homekit-for-over-two-years-2987be88e91e",
+      "resourceInsights": "Even high-end ecosystems suffer from \"No Response\" errors due to poor Wi-Fi or Bluetooth connectivity between devices and the central hub.\nUsers find it difficult to set up truly useful automations (like motion-activated lighting) that don't become annoying over time due to technical limitations.\nThere is a lack of high-quality, diverse hardware (especially light switches) that fits seamlessly into a professional smart home setup.",
+      "comments": "This justifies the \"Hardware Specialist\" persona and his focus on local storage and Zigbee/Matter protocols to avoid the \"No Response\" cloud-dependency issues mentioned in the article.",
+      "createdAt": "2026-05-14T07:35:41.261Z"
+    },
+    {
+      "id": "23d054a4-5e06-4762-a3e8-a446c4d9d07d",
+      "resourceName": "How will AR and MR impact the smart home experience?",
+      "resourceUrl": "https://tcaflisch.medium.com/how-will-ar-and-mr-impact-the-smart-home-experience-fc7d77b19af7",
+      "resourceInsights": "he article highlights that AR allows users to \"see\" digital information in physical space, moving away from 2D lists on a phone screen to 3D interaction.It discusses the ability to look at a device and have its specific controls appear instantly, reducing the \"search time\" in traditional apps. AR can visualize invisible data like Wi-Fi signals, heat distribution, or energy flow, which are otherwise impossible to perceive.",
+      "comments": "It validates our Observational Research finding regarding \"Hidden Maintenance\"—using AR to see through walls or into machines to identify faults.",
+      "createdAt": "2026-05-14T07:37:24.593Z"
+    },
+    {
+      "id": "2f3bfa26-5075-4db7-8875-1a44ca9c2aca",
+      "resourceName": "Best smart home systems: Top ecosystems for every house",
+      "resourceUrl": "https://www.pcworld.com/article/582873/best-smart-home-system.html",
+      "resourceInsights": "The article discusses the necessity of a central \"brain\" or hub to ensure devices from different manufacturers can communicate.\nIt highlights how choosing a system (like Alexa vs. HomeKit) often limits which hardware you can buy, creating a \"walled garden\" effect.\nThere is a constant trade-off between \"plug-and-play\" simplicity for casual users and the deep customization desired by enthusiasts.",
+      "comments": "This justifies the \"Agnostic Core\" of INTELLIDEN. It also validates our multi-platform UI approach",
+      "createdAt": "2026-05-14T07:40:17.681Z"
+    }
+  ],
+  "observationalResearch": [
+    {
+      "id": "5f145cb9-701b-4279-8184-76f3054679f5",
+      "target": "User entering the home with hands full.",
+      "dateTime": "2026-04-17T18:30",
+      "behavior": "The user (Andrei) approached the door carrying several bags. He attempted to reach for his phone in his pocket to unlock the smart lock but nearly dropped a bag. He eventually gave up on the phone and waited for a roommate to open the door from the inside.",
+      "comments": "Demonstrates a clear need for \"zero-touch\" or gesture-based unlocking via the Smartwatch ",
+      "duration": "3 minutes",
+      "createdAt": "2026-05-13T19:16:36.968Z"
+    },
+    {
+      "id": "b5945e58-32bb-495b-8082-5c955d021620",
+      "target": "Engineer inspecting a malfunctioning appliance.",
+      "dateTime": "2026-03-22T10:15",
+      "behavior": "The user (Marcus) noticed the dishwasher was making a strange noise. He spent 10 minutes looking for the physical manual and another 5 minutes trying to find the specific error code on his tablet.",
+      "comments": "Justifies the AR Glasses feature: a spatial overlay that shows real-time diagnostics and \"X-ray\" views of internal components directly over the machine",
+      "duration": "17 minutes",
+      "createdAt": "2026-05-13T19:22:29.292Z"
+    },
+    {
+      "id": "847ba5dc-9da2-41de-9d99-26369f347b42",
+      "target": "Two roommates in the living room.",
+      "dateTime": "2026-03-16T20:00",
+      "behavior": "Ioana set the temperature to 22°C for her workout. Ten minutes later, Maria entered, felt too hot, and manually changed it to 19°C. Neither realized the other had a specific reason for their setting, leading to a verbal disagreement.",
+      "comments": "The system needs to show \"Active Intent\"  to all users.",
+      "duration": "20 minutes",
+      "createdAt": "2026-05-13T19:24:39.860Z"
+    }
+  ],
+  "competitiveAnalysis": [],
+  "userInterviews": []
+}
